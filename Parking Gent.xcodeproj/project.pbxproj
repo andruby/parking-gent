@@ -15,6 +15,8 @@
 		4961E7031A4732A400C2198F /* Parking_GentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E7021A4732A400C2198F /* Parking_GentTests.swift */; };
 		4961E70D1A47668A00C2198F /* viewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4961E70C1A47668A00C2198F /* viewTableCell.xib */; };
 		4961E70F1A4767B700C2198F /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E70E1A4767B700C2198F /* TableCell.swift */; };
+		4961E7111A47824100C2198F /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E7101A47824100C2198F /* Parking.swift */; };
+		4961E7131A4782AD00C2198F /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E7121A4782AD00C2198F /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		4961E7021A4732A400C2198F /* Parking_GentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_GentTests.swift; sourceTree = "<group>"; };
 		4961E70C1A47668A00C2198F /* viewTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewTableCell.xib; sourceTree = "<group>"; };
 		4961E70E1A4767B700C2198F /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		4961E7101A47824100C2198F /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		4961E7121A4782AD00C2198F /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				4961E6F31A4732A400C2198F /* Images.xcassets */,
 				4961E6F51A4732A400C2198F /* LaunchScreen.xib */,
 				4961E6EA1A4732A400C2198F /* Supporting Files */,
+				4961E7101A47824100C2198F /* Parking.swift */,
+				4961E7121A4782AD00C2198F /* APIController.swift */,
 			);
 			path = "Parking Gent";
 			sourceTree = "<group>";
@@ -220,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4961E7111A47824100C2198F /* Parking.swift in Sources */,
 				4961E6EF1A4732A400C2198F /* ViewController.swift in Sources */,
 				4961E70F1A4767B700C2198F /* TableCell.swift in Sources */,
 				4961E6ED1A4732A400C2198F /* AppDelegate.swift in Sources */,
+				4961E7131A4782AD00C2198F /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
