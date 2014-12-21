@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, APIControllerProtocol {
     
     @IBOutlet var tableView: UITableView!
-    var tableData: [String] = ["Hello", "My", "Table"]
+    var tableData: [Parking] = []
+    var api: APIController = APIController()
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.tableData.count
@@ -19,11 +20,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell: TableCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as TableCell
-        
-        cell.parkingName.text = self.tableData[indexPath.row]
-        cell.freeSpace.text = String(indexPath.row)
+        var parking: Parking = self.tableData[indexPath.row]
+        cell.parkingName.text = parking.description
+        if let capacity = parking.availableCapacity {
+            cell.freeSpace.text = String(capacity)
+        }
         
         return cell
+    }
+    
+    func didRecieveParkings(parkings: [Parking]) {
+        // Store the results in our table data array
+        println(parkings)
+        self.tableData = parkings
+        self.tableView.reloadData()
     }
     
     override func viewDidLoad() {
@@ -33,6 +43,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Register custom cell style
         var nib = UINib(nibName: "viewTableCell", bundle: nil)
         self.tableView.registerNib(nib, forCellReuseIdentifier: "cell")
+        
+        self.api.delegate = self
+        self.api.fetchParkingData()
+
     }
     
     override func didReceiveMemoryWarning() {
