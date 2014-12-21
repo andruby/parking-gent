@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4961E6ED1A4732A400C2198F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E6EC1A4732A400C2198F /* AppDelegate.swift */; };
+		4961E6EF1A4732A400C2198F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E6EE1A4732A400C2198F /* ViewController.swift */; };
+		4961E6F21A4732A400C2198F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4961E6F01A4732A400C2198F /* Main.storyboard */; };
+		4961E6F41A4732A400C2198F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4961E6F31A4732A400C2198F /* Images.xcassets */; };
+		4961E6F71A4732A400C2198F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4961E6F51A4732A400C2198F /* LaunchScreen.xib */; };
+		4961E7031A4732A400C2198F /* Parking_GentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E7021A4732A400C2198F /* Parking_GentTests.swift */; };
+		4961E70D1A47668A00C2198F /* viewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4961E70C1A47668A00C2198F /* viewTableCell.xib */; };
+		4961E70F1A4767B700C2198F /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E70E1A4767B700C2198F /* TableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4961E6FD1A4732A400C2198F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4961E6DF1A4732A400C2198F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4961E6E61A4732A400C2198F;
+			remoteInfo = "Parking Gent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4961E6E71A4732A400C2198F /* Parking Gent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking Gent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4961E6EB1A4732A400C2198F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4961E6EC1A4732A400C2198F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4961E6EE1A4732A400C2198F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4961E6F11A4732A400C2198F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4961E6F31A4732A400C2198F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4961E6F61A4732A400C2198F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4961E6FC1A4732A400C2198F /* Parking GentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking GentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4961E7011A4732A400C2198F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4961E7021A4732A400C2198F /* Parking_GentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_GentTests.swift; sourceTree = "<group>"; };
+		4961E70C1A47668A00C2198F /* viewTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewTableCell.xib; sourceTree = "<group>"; };
+		4961E70E1A4767B700C2198F /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4961E6E41A4732A400C2198F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4961E6F91A4732A400C2198F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4961E6DE1A4732A400C2198F = {
+			isa = PBXGroup;
+			children = (
+				4961E6E91A4732A400C2198F /* Parking Gent */,
+				4961E6FF1A4732A400C2198F /* Parking GentTests */,
+				4961E6E81A4732A400C2198F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4961E6E81A4732A400C2198F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4961E6E71A4732A400C2198F /* Parking Gent.app */,
+				4961E6FC1A4732A400C2198F /* Parking GentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4961E6E91A4732A400C2198F /* Parking Gent */ = {
+			isa = PBXGroup;
+			children = (
+				4961E6EC1A4732A400C2198F /* AppDelegate.swift */,
+				4961E6EE1A4732A400C2198F /* ViewController.swift */,
+				4961E6F01A4732A400C2198F /* Main.storyboard */,
+				4961E70C1A47668A00C2198F /* viewTableCell.xib */,
+				4961E70E1A4767B700C2198F /* TableCell.swift */,
+				4961E6F31A4732A400C2198F /* Images.xcassets */,
+				4961E6F51A4732A400C2198F /* LaunchScreen.xib */,
+				4961E6EA1A4732A400C2198F /* Supporting Files */,
+			);
+			path = "Parking Gent";
+			sourceTree = "<group>";
+		};
+		4961E6EA1A4732A400C2198F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4961E6EB1A4732A400C2198F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4961E6FF1A4732A400C2198F /* Parking GentTests */ = {
+			isa = PBXGroup;
+			children = (
+				4961E7021A4732A400C2198F /* Parking_GentTests.swift */,
+				4961E7001A4732A400C2198F /* Supporting Files */,
+			);
+			path = "Parking GentTests";
+			sourceTree = "<group>";
+		};
+		4961E7001A4732A400C2198F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4961E7011A4732A400C2198F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4961E6E61A4732A400C2198F /* Parking Gent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4961E7061A4732A400C2198F /* Build configuration list for PBXNativeTarget "Parking Gent" */;
+			buildPhases = (
+				4961E6E31A4732A400C2198F /* Sources */,
+				4961E6E41A4732A400C2198F /* Frameworks */,
+				4961E6E51A4732A400C2198F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parking Gent";
+			productName = "Parking Gent";
+			productReference = 4961E6E71A4732A400C2198F /* Parking Gent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4961E6FB1A4732A400C2198F /* Parking GentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4961E7091A4732A400C2198F /* Build configuration list for PBXNativeTarget "Parking GentTests" */;
+			buildPhases = (
+				4961E6F81A4732A400C2198F /* Sources */,
+				4961E6F91A4732A400C2198F /* Frameworks */,
+				4961E6FA1A4732A400C2198F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4961E6FE1A4732A400C2198F /* PBXTargetDependency */,
+			);
+			name = "Parking GentTests";
+			productName = "Parking GentTests";
+			productReference = 4961E6FC1A4732A400C2198F /* Parking GentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4961E6DF1A4732A400C2198F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrew Fecheyr-Lippens";
+				TargetAttributes = {
+					4961E6E61A4732A400C2198F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = BNNF9D3VT6;
+					};
+					4961E6FB1A4732A400C2198F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4961E6E61A4732A400C2198F;
+					};
+				};
+			};
+			buildConfigurationList = 4961E6E21A4732A400C2198F /* Build configuration list for PBXProject "Parking Gent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4961E6DE1A4732A400C2198F;
+			productRefGroup = 4961E6E81A4732A400C2198F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4961E6E61A4732A400C2198F /* Parking Gent */,
+				4961E6FB1A4732A400C2198F /* Parking GentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4961E6E51A4732A400C2198F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961E6F21A4732A400C2198F /* Main.storyboard in Resources */,
+				4961E70D1A47668A00C2198F /* viewTableCell.xib in Resources */,
+				4961E6F71A4732A400C2198F /* LaunchScreen.xib in Resources */,
+				4961E6F41A4732A400C2198F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4961E6FA1A4732A400C2198F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4961E6E31A4732A400C2198F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961E6EF1A4732A400C2198F /* ViewController.swift in Sources */,
+				4961E70F1A4767B700C2198F /* TableCell.swift in Sources */,
+				4961E6ED1A4732A400C2198F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4961E6F81A4732A400C2198F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961E7031A4732A400C2198F /* Parking_GentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4961E6FE1A4732A400C2198F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4961E6E61A4732A400C2198F /* Parking Gent */;
+			targetProxy = 4961E6FD1A4732A400C2198F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4961E6F01A4732A400C2198F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4961E6F11A4732A400C2198F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4961E6F51A4732A400C2198F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4961E6F61A4732A400C2198F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4961E7041A4732A400C2198F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4961E7051A4732A400C2198F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4961E7071A4732A400C2198F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Parking Gent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4961E7081A4732A400C2198F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Parking Gent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4961E70A1A4732A400C2198F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parking GentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking Gent.app/Parking Gent";
+			};
+			name = Debug;
+		};
+		4961E70B1A4732A400C2198F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parking GentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking Gent.app/Parking Gent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4961E6E21A4732A400C2198F /* Build configuration list for PBXProject "Parking Gent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4961E7041A4732A400C2198F /* Debug */,
+				4961E7051A4732A400C2198F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4961E7061A4732A400C2198F /* Build configuration list for PBXNativeTarget "Parking Gent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4961E7071A4732A400C2198F /* Debug */,
+				4961E7081A4732A400C2198F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4961E7091A4732A400C2198F /* Build configuration list for PBXNativeTarget "Parking GentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4961E70A1A4732A400C2198F /* Debug */,
+				4961E70B1A4732A400C2198F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4961E6DF1A4732A400C2198F /* Project object */;
+}
