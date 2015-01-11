@@ -19,7 +19,7 @@ class APIController: NSObject {
     
     func fetchParkingData() {
         
-        var urlPath = "http://datatank.gent.be/Mobiliteitsbedrijf/Parkings11.json"
+        var urlPath = "http://parking-bot.herokuapp.com/parkings.json"
         var url: NSURL = NSURL(string: urlPath)!
         var request: NSURLRequest = NSURLRequest(URL: url)
         var connection: NSURLConnection = NSURLConnection(request: request, delegate: self, startImmediately: false)!
