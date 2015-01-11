@@ -45,10 +45,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.registerNib(nib, forCellReuseIdentifier: "cell")
         
         self.api.delegate = self
-        self.api.fetchParkingData()
-
+        var timer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
     }
     
+    func update() {
+        self.api.fetchParkingData()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
