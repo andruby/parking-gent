@@ -26,10 +26,8 @@ class Parking {
     class func fromJson(json: NSMutableData) -> [Parking] {
         // Convert the retrieved data in to an object through JSON deserialization
         //var err: NSError
-        let jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(json, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        let parkingsArray: [NSDictionary] = NSJSONSerialization.JSONObjectWithData(json, options: NSJSONReadingOptions.MutableContainers, error: nil) as [NSDictionary]
         
-        let parkingsData = jsonResult["Parkings11"] as NSDictionary
-        let parkingsArray = parkingsData["parkings"] as [NSDictionary]
         var parkings: [Parking] = []
         for data in parkingsArray {
             parkings.append(Parking(data: data))
