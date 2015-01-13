@@ -22,9 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var cell: TableCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as TableCell
         var parking: Parking = self.tableData[indexPath.row]
         cell.parkingName.text = parking.description
-        if let capacity = parking.availableCapacity {
-            cell.freeSpace.text = String(capacity)
-        }
+        cell.freeSpace.text = String(parking.availableCapacity)
         
         return cell
     }

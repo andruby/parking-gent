@@ -11,16 +11,19 @@ import Foundation
 class Parking {
     var name: String?
     var description: String?
-    var availableCapacity: Int?
-    var open: Bool?
-    var full: Bool?
+    var availableCapacity = 0
+    var open = true
+    var full = false
+    var free = false
     var latitude: Double?
     var longitude: Double?
     
     init(data: NSDictionary) {
         name = data["name"] as? String
         description = data["description"] as? String
-        availableCapacity = (data["availableCapacity"] as String).toInt()
+        availableCapacity = data["available_capacity"] as Int
+        full = data["full"] as Bool
+        free = data["free"] as Bool
     }
     
     class func fromJson(json: NSMutableData) -> [Parking] {
