@@ -23,10 +23,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var parking: Parking = self.tableData[indexPath.row]
         cell.parkingName.text = parking.description
         if parking.full {
+            cell.freeSpace.textColor = UIColor(rgb: 0xCB0404)
             cell.freeSpace.text = "FULL"
         } else if parking.free {
+            cell.freeSpace.textColor = UIColor(rgb: 0x209624)
             cell.freeSpace.text = "FREE"
         } else {
+            cell.freeSpace.textColor = UIColor(rgb: 0x209624)
             cell.freeSpace.text = String(parking.availableCapacity)
         }
         

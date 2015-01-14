@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4903CDFF1A65E91200F6DEE2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903CDFE1A65E91100F6DEE2 /* UIColorExtensions.swift */; };
 		4961E6ED1A4732A400C2198F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E6EC1A4732A400C2198F /* AppDelegate.swift */; };
 		4961E6EF1A4732A400C2198F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961E6EE1A4732A400C2198F /* ViewController.swift */; };
 		4961E6F21A4732A400C2198F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4961E6F01A4732A400C2198F /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4903CDFE1A65E91100F6DEE2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		4961E6E71A4732A400C2198F /* Parking Gent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking Gent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4961E6EB1A4732A400C2198F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4961E6EC1A4732A400C2198F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4961E6EA1A4732A400C2198F /* Supporting Files */,
 				4961E7101A47824100C2198F /* Parking.swift */,
 				4961E7121A4782AD00C2198F /* APIController.swift */,
+				4903CDFE1A65E91100F6DEE2 /* UIColorExtensions.swift */,
 			);
 			path = "Parking Gent";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				4961E7111A47824100C2198F /* Parking.swift in Sources */,
 				4961E6EF1A4732A400C2198F /* ViewController.swift in Sources */,
 				4961E70F1A4767B700C2198F /* TableCell.swift in Sources */,
+				4903CDFF1A65E91200F6DEE2 /* UIColorExtensions.swift in Sources */,
 				4961E6ED1A4732A400C2198F /* AppDelegate.swift in Sources */,
 				4961E7131A4782AD00C2198F /* APIController.swift in Sources */,
 			);
@@ -432,6 +436,7 @@
 				4961E7081A4732A400C2198F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4961E7091A4732A400C2198F /* Build configuration list for PBXNativeTarget "Parking GentTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				4961E70B1A4732A400C2198F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
